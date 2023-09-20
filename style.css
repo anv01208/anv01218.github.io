@@ -1,0 +1,66 @@
+/* Style for the navigation menu */
+header {
+    background-color: #333; /* поменять фон */
+    color: white; /* цвет для ссылок  */
+    padding: 15px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px; /* отступ */
+}
+
+/* стиль для секции игр */
+.game {
+    margin: 20px; /* внутринние отступы со всех сторон */
+    padding: 20px;/*внешние отступы со всех сторон
+    border: 1px solid #ccc; /* персональные отступы */
+    background-color: #f9f9f9;
+}
+
+.game img {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.price {
+    font-weight: bold;
+    color: mediumseagreen;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: mediumseagreen;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+
+
+.socialMedia a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.socialMedia a:hover {
+    text-decoration: underline;
+}
